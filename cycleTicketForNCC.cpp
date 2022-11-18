@@ -86,7 +86,7 @@ void CycleTicketForNCC::luckyNum(){
                         size--;
                         luckyNum();
                     } else if (option == "2") {
-                        dataToFile(); // စမ်းထားတာ ဖျက်ရန
+                        dataToFile();
                         paymentFun();
                     } else{
                         cout<<"Please choose option carefully!!!"<<endl;
